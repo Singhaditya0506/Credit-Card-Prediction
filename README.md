@@ -45,7 +45,6 @@ Linear Regression had the lowest test RMSE among these runs. KNN's zero training
 - Selected numeric columns are filled with training-set medians; `debit_count_apr` and `emi_active` are filled with training-set modes. The same values are applied to the test set.
 - IQR limits are calculated from training data and used to cap selected numeric columns in both splits.
 - `StandardScaler` is fit on the training features and then applied to the test features.
-- The notebook contains no charts, as requested.
 
 ## Repository Structure
 
